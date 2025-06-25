@@ -18,7 +18,7 @@ if __name__ == "__main__":
         usuario.idade = int(input("Informe a idade: "))
         usuario.email = input("Informe o email: ").lower().strip()
         usuario.profissao = input("Informe sua profissão: ").strip()
-
+ 
         usuario.apresentar()
     except Exception as e:
         print(f"Não foi possível executar o programa. {e}.")             
